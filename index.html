@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Entre 55 y 65 caracteres -->
+    <title>😘Aprendiendo HTML❤</title>
+    <!-- description - no más de 165 caracteres -->
+    <meta name="description" content="Aprendiendo HTML desde cero">
+    <style>
+       h2{
+        background-color: black;
+        border: solid yellowgreen;
+        color: yellowgreen;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+
+  <body>
+    <!-- Esto es un comentario -->
+    <p>
+      Hola estoy aprendiendo HTML
+    </p>
+    <hr>
+    <h1>
+      Encabezados de HTML
+    </h1>
+    <h2>
+      Encabezado de nivel 2
+    </h2>
+    <h3>
+      Encabezado de nivel 3
+    </h3>
+    <h4>
+      Encabezado de nivel 4
+    </h4>
+    <h5>
+      Encabezado de nivel 5
+    </h5>
+    <h6>
+      Encabezado de nivel 6
+    </h6>
+    <hr>
+    <h2>
+      Etiquetas de texto Basicas
+    </h2>
+    <p>
+      Parrafo
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate animi
+      quas similique accusamus saepe. Eius, perferendis nostrum corporis
+      reiciendis saepe fuga dicta voluptatem sed, ullam sequi repudiandae alias
+      necessitatibus nulla!
+    </p>
+    <p>
+      Palabras en: 
+      <b>
+        negrita
+      </b>, 
+      <i>
+        itálica
+      </i> 
+      <u>
+        subrayado
+      </u>,
+      e=mc
+      <sup>
+        2
+      </sup>,
+      <mark>
+        marcatexto
+      </mark> 
+      <small>
+        Letras pequeñas
+      </small>
+    </p>
+    <hr>
+    <h2>
+      Etiquetas de Texto semantica
+    </h2>
+    <p>
+      <strong> 
+        Este testo es de suma importancia 
+      </strong>,
+      <em>
+        Este texto hace enfasis
+      </em>, 
+      <blockquote>
+        Yo solo se, que nade se
+      </blockquote> 
+      <cite>
+        Socrates
+      </cite>
+    </p>
+    <hr>
+    <h2>
+      Etiquetas de Saltos
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet con
+      sectetur adipisicing elit. 
+      <br> 
+      Inventore voluptatum atque voluptatibus eligendi ipsa? Maiores odit, 
+      <br> 
+      iusto iure veritatis eligendi laboriosam nam recusandae quaerat error, 
+      <br> 
+      ullam debitis veniam nihil! Molestias.
+    </p>
+    <hr>
+    <h2>Etiquetas de formateo</h2>
+    <pre>
+      Cosas por Aprender:
+        - HTML
+        - CSS
+        - JS
+        - REACT
+        - DB MODEL
+        - SQL
+        - NOSQL
+        - THREE.js
+        - JSON
+        - NODE.js
+        - PYTHON
+        - PHP
+        - GRAPHQL
+        - HTTP/HTTPS
+    </pre>
+    <p>
+      <code>
+        Este texto está en formato de código
+      </code>
+    </p>
+    <p>
+      <pre>
+        <code>
+          const client = (user, password) => {
+            (user === "miguel" && password === "miguel123") 
+              ? alert(`El usuario ${user} es bienvenido`) 
+              : alert(`El usuario ${user} no esta correcto 
+              revise su usuario o contraseña`)
+          }
+
+          client(prompt("Ingrese su usuario"), prompt("Ingrese su clave"))
+        </code>
+    </pre>
+    </p>
+    <hr>
+    <h2>Etiquetas estructurales semanticas</h2>
+    <!-- 
+      article: Contenido. ejemplos: Es un contenedor de bloques de contenido que se consideran independientes del sitio web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por separado, como por ejemplo, en la sindicación. Puedes encontrar habitualmente a este elemento encerrando artículos, entradas de blogs o mensajes de un foro. 
+
+      aside: El elemento HTML <aside> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.
+    -->
+    <div>Es una etiqueta contenedora que no tiene semántica</div>
+    <header>header - Cabecera de un sitio web o de una sección</header>
+    <main>main - Define la sección principal de un documento, sólo puede existir una etiqueta main por el documento</main>
+    <footer>footer - Pié de un sitio web o de una sección</footer>
+    <article>article - Representa una sección autocontenida (que por sí sola se explica)</article>
+    <aside>
+      aside - Representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.
+   </aside>
+   <section>section - Representa una sección de contenido genérico</section>
+   <address>address - Representa una dirección física</address>
+   <hr>
+   <h2>Etiquetas de Bloque VS Etiquetas de linea</h2>
+   <div style="color: rgb(255, 98, 124); background-color: black; border:solid rgb(255, 98, 124);">La etiqueta de bloque por excelencia es la div. Una etiqueta de Bloque es aquella que genera saltos de linea con sus etiquetas hermanas.</div> <br>
+   <span style="color: pink; background-color: black; border:solid pink;">La etiqueta de línea por excelencia es la span, una etiqueta de linea solo ocupa el espacio necesario que tiene su contenido</span>
+   <span>Soy otro texto</span>
+   <hr>
+   <h2>Estilos CSS en HTML</h2>
+   <hr>
+   <h2>Scripts en HTML</h2>
+   <script>
+    console.log("Hi onichan")
+   </script>
+   <hr>
+   <h2>Imágenes</h2>
+   <img src="./assets/img/1.jpg" alt="Pikachu"><img>
+   <img src="./assets/img/2.jpg" alt="Miku"><img>
+   <img src="./assets/img/3.png" alt="Zero"><img>
+   <img src="./assets/img/pug.svg" alt="Perrito"><img>
+   <hr>
+   <h2>Figuras</h2>
+   <figure>
+    <img src="./assets/img/escherichia-coli.jpg" alt="E. Coli o escherichia coli">
+    <figcaption>Escherichia coli</figcaption>
+   </figure>
+   <hr>
+   <h2>Listas Ordenadas</h2>
+   <h3>Estaciones del año</h3>
+   <ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+   </ol>
+   <ol start="3">
+     <li>Primavera</li>
+     <li>Verano</li>
+     <li>Otoño</li>
+    <li>Invierno</li>
+   </ol>
+    <ol reversed>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol type="I">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+   </ol>
+   <hr>
+   <h2>Listas Desordenadas</h2>
+   <h3>Cosas por Aprender</h3>
+   <ul>
+    <li>Aprender HTML</li>
+    <li>Aprender CSS</li>
+    <li>Aprender JS</li>
+    <li>Aprender NODE</li>
+    <li>Aprender DB</li>
+    <li>Aprender REACT</li>
+   </ul>
+   <ul type="circle">
+    <li>Aprender HTML</li>
+    <li>Aprender CSS</li>
+    <li>Aprender JS</li>
+    <li>Aprender NODE</li>
+    <li>Aprender DB</li>
+    <li>Aprender REACT</li>
+   </ul>
+   <ul type="square">
+    <li>Aprender HTML</li>
+    <li>Aprender CSS</li>
+    <li>Aprender JS</li>
+    <li>Aprender NODE</li>
+    <li>Aprender DB</li>
+    <li>Aprender REACT</li>
+   </ul>
+    <hr>
+   <h2>Listas de Definisión</h2>
+   <dl>
+    <dt>HTML</dt>
+    <dd>Es un lenguaje de marcado que define el contenido de la WEB</dd>
+    <dt>CSS</dt>
+    <dd>Es un lenguaje que da estilos al código HTML</dd>
+    <dt>JavaScript</dt>
+    <dd>Es el lenguaje de la web</dd>
+   </dl>
+   <hr>
+   <h2>Tablas HTML</h2>
+   <table>
+    <thead>
+      <tr colspan="5">Tabla de mi familia</tr>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th colspan="2">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Santiago</td>
+        <td>Pazmiño</td>
+        <td><button>Editar</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Pola</td>
+        <td>Calero</td>
+        <td><button>Editar</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Carolina</td>
+        <td>Gonzales</td>
+        <td><button>Editar</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Maria</td>
+        <td>Pazmiño</td>
+        <td><button>Editar</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+   </table>
+    
+   <script src="./assets/main.js"></script>
+  </body>
+
+</html>
